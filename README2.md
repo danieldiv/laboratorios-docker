@@ -45,9 +45,9 @@ docker container run --name wp -phpmyadmin -e PMA_HOST=wp-db -e PMA_PORT=3306 -e
 
 > Acesse `localhost:8181` para verificar o funcionamento
 
-- Compartilhar todos os containers com uma equipe nova pode ser complicado. Visando isso, surge o Docker Compose, que é uma solução para criar uma receita que executa seus containers de uma forma organizada.
-
 ## Criação de vários Containers utilizando Compose
+
+> Compartilhar todos os containers com uma equipe nova pode ser complicado. Visando isso, surge o Docker Compose, que é uma solução para criar uma receita que executa seus containers de uma forma organizada.
 
 - Crie o arquivo docker-compose.yml [^3]
 - Remova os Containers criados
