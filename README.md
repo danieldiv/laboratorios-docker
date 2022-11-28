@@ -1,6 +1,6 @@
 # Docker
 
-> O sistema utilizado foi o linux ubuntu ...
+> O sistema utilizado foi o linux ubuntu
 
 ## Comandos uteis
 
