@@ -1,6 +1,6 @@
 # Docker
 
-> O sistema utilizado foi o linux ubuntu
+> O sistema utilizado foi o linux ubuntu com base nos vídeos [^1] e [^2]
 
 ### Caso não tenha o Docker instalado, rode os seguintes comandos:
 
@@ -81,3 +81,9 @@ docker run -d --name mysql-vol -e MYSQL_ROOT_PASSWORD=root -v mysql-db:/tmp/meus
 ```
 docker exec -it mysql-vol /bin/bash
 ```
+
+### Referências
+
+[^1]: [Utilizando-MySQL-com-Docker](<https://youtu.be/1Zpr1vX0wqk?list=PLZTjHbp2Y78013IcGa-vCAcqQUwGt_MW6>)
+
+[^2]: [Utilizando-volumes-no-Docker](<https://youtu.be/gU_3fW2VFPc?list=PLZTjHbp2Y78013IcGa-vCAcqQUwGt_MW6>)
