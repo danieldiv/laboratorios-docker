@@ -73,7 +73,7 @@ docker-compose --env-file .env up -d
 
 [^1]: [GitHub](<https://github.com/fabricioveronez/live-docker>)
 
-[^2]: [YouTube](<https://www.youtube.com/watch?v=hue967OT4gw>)
+[^2]: [Como-usar-corretamente-o-Docker-Compose](<https://www.youtube.com/watch?v=hue967OT4gw>)
 
 [^3]: [docker-compose.yml](<https://github.com/fabricioveronez/live-docker/blob/main/wodpress/docker-compose.yml>)
 
