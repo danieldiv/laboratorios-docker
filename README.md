@@ -2,6 +2,13 @@
 
 > O sistema utilizado foi o linux ubuntu
 
+### Caso não tenha o Docker instalado, rode os seguintes comandos:
+
+```
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get install docker.io
+```
+
 ## Comandos uteis
 
 - `docker images` exibe todas as imagens disponiveis no sistema
