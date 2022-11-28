@@ -2,9 +2,9 @@
 
 - Vamos criar vários containers. Com o tempo esses containers ficam difíceis de manipular por causa da quantidade, com isso, vamos utilizar o Docker Compose para fazer todo o processo de forma mais automatizada.
 
-- Git utilizado como referência. [^1]
+- Repositório Git utilizado como referência. [^1]
 
-- YouTube utilizado como referência. [^2]
+- Vídeo do YouTube utilizado como referência. [^2]
 
 ### Caso não tenha o Docker Compose instalado, execute os seguintes comandos:
 
