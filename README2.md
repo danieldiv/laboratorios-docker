@@ -6,7 +6,7 @@
 
 - YouTube utilizado como referência. [^2]
 
-### Caso não tenha o Docker Compose instalado, rode os seguintes comandos:
+### Caso não tenha o Docker Compose instalado, execute os seguintes comandos:
 
 ```
 sudo apt-get update && sudo apt-get upgrade -y
