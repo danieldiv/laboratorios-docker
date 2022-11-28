@@ -2,6 +2,10 @@
 
 - Vamos criar vários containers. Com o tempo esses containers ficam difíceis de manipular por causa da quantidade, com isso, vamos utilizar o Docker Compose para fazer todo o processo de forma mais automatizada.
 
+- Git utilizado como referência. [^1]
+
+- YouTube utilizado como referência. [^2]
+
 ### Caso não tenha o Docker Compose instalado, rode os seguintes comandos:
 
 ```
@@ -43,11 +47,15 @@ docker container run --name wp -phpmyadmin -e PMA_HOST=wp-db -e PMA_PORT=3306 -e
 
 - Compartilhar todos os containers com uma equipe nova pode ser complicado. Visando isso, surge o Docker Compose, que é uma solução para criar uma receita que executa seus containers de uma forma organizada.
 
-oi [^1] oi
-
-
 ## Criação de vários Containers utilizando Compose
 
-## Referência
+- Crie o arquivo .yml [^3]
 
-[^1]: <https://github.com/fabricioveronez/live-docker>
+
+## Referências
+
+[^1]: [GitHub](<https://github.com/fabricioveronez/live-docker>)
+
+[^2]: [YouTube](<https://www.youtube.com/watch?v=hue967OT4gw>)
+
+[^3]: [docker-compose.yml](<https://github.com/fabricioveronez/live-docker/blob/main/wodpress/docker-compose.yml>)
