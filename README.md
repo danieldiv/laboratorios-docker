@@ -56,4 +56,21 @@ docker inspect mysql-vol
 docker volume prune
 ```
 
-> Inicia um container para utilizar o mysql, em seguida é listado todos os volumes existentes, depois faz a inspeção do container `mysql-vol` para ver informações sobre a sua localização, tipo de leitura, etc.
+> Inicia um container para utilizar o mysql, em seguida é listado todos os volumes existentes, depois faz a inspeção do container `mysql-vol` para ver informações sobre a sua localização, tipo de leitura, etc. O comando `prune` remove os volumes que não estão sendo utilizados. Por padrão será criado um volume automaticamente utilizando uma hash aleatoria.
+
+### Criar volume
+
+- A criação dos volumes gerá uma hash que pode ser confusa de ler, logo é possivel utilizar um nome para o volume
+
+```
+docker volume create mysql-db
+docker run -d --name mysql-vol -e MYSQL_ROOT_PASSWORD=root -v mysql-db:/tmp/meus-volumes mysql
+```
+
+> O comando acima iniciliza um volume com o nome `mysql-db`, em seguida é criado um container que irá utilizar o volume criado alé de especificar o caminho para acessar o volume no container.
+
+### Acessar o container criado acima
+
+```
+docker exec -it mysql-vol /bin/bash
+```
