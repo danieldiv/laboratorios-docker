@@ -49,8 +49,25 @@ docker container run --name wp -phpmyadmin -e PMA_HOST=wp-db -e PMA_PORT=3306 -e
 
 ## Criação de vários Containers utilizando Compose
 
-- Crie o arquivo .yml [^3]
+- Crie o arquivo docker-compose.yml [^3]
+- Remova os Containers criados
 
+### Subir Compose
+
+```
+docker-compose up -d
+docker-compose logs
+```
+
+> Executa todos os containers do arquivo [^3] e exibe os logs.
+
+- Crie o arquivo .env [^4]
+
+### Executar o Compose através do .env
+
+```
+docker-compose --env-file .env up -d
+```
 
 ## Referências
 
@@ -59,3 +76,5 @@ docker container run --name wp -phpmyadmin -e PMA_HOST=wp-db -e PMA_PORT=3306 -e
 [^2]: [YouTube](<https://www.youtube.com/watch?v=hue967OT4gw>)
 
 [^3]: [docker-compose.yml](<https://github.com/fabricioveronez/live-docker/blob/main/wodpress/docker-compose.yml>)
+
+[^4]: [.env](<https://github.com/fabricioveronez/live-docker/blob/main/wodpress/.env>)
